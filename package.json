@@ -1,0 +1,45 @@
+{
+  "name": "ICHX-tokens",
+  "version": "1.0.0",
+  "description": "IceChain",
+  "scripts": {
+    "build": "tsc && truffle compile",
+    "test": "npm run build && node run-tests.js"
+  },
+  "author": "Pavel Motyrev <motyrev@softmotions.com>",
+  "license": "private",
+  "dependencies": {
+    "ajv": "^6.5.4",
+    "bignumber.js": "4.0.2",
+    "bluebird": "^3.5.2",
+    "body-parser": "^1.18.3",
+    "ethereumjs-tx": "latest",
+    "ethereumjs-util": "^6.0.0",
+    "js-yaml": "^3.12.0",
+    "merge-stream": "^1.0.1",
+    "moment": "^2.22.2",
+    "morgan": "^1.9.1",
+    "node-async-router": "^0.0.2",
+    "truffle-contract": "^3.0.6",
+    "truffle-flattener": "^1.2.9",
+    "tslib": "^1.9.3",
+    "web3": "0.20.7",
+    "web3-provider-engine": "^14.1.0",
+    "web3-typed": "git+https://github.com/Softmotions/web3-typed.git"
+  },
+  "devDependencies": {
+    "@types/bignumber.js": "4.0.2",
+    "@types/bluebird-global": "^3.5.9",
+    "@types/chai": "4.1.7",
+    "@types/express": "^4.16.0",
+    "@types/knex": "^0.14.26",
+    "@types/merge-stream": "^1.1.2",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^10.12.1",
+    "ganache-cli": "^6.1.8",
+    "json-schema-to-typescript": "^6.0.1",
+    "truffle": "^4.1.14",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.4"
+  }
+}

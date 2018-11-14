@@ -1,0 +1,17 @@
+ethereum:
+  endpoint: 'http://localhost:8549'
+  from: '0x475022e2471dbd4b8c4bfd5d92555662f3188698'
+  lockfilesDir: '{cwd}'
+  gas: '45e5'
+  gasPrice: '10e9'
+  ICHXToken:
+    schema: '{moduledir}/build/contracts/ICHXToken.json'
+    totalSupplyTokens: '1e9'
+    companyTokens: '8e8'
+  ICHXICO:
+    schema: '{moduledir}/build/contracts/ICHXICO.json'
+    teamWallet: '0x475022e2471dbd4b8c4bfd5d92555662f3188698'
+    lowCapWei: '0'
+    hardCapWei: '11976e18'  #  11 976 ETH
+    lowCapTxWei: '1e17' #    0.1 ETH
+    hardCapTxWei: '11976e18'
